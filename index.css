@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Outfit:wght@400;700&family=Poppins:wght@700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: hsl(207, 100%, 98%);
+    --paragraf: hsl(208, 11%, 55%);
+    --footer: hsl(192, 100%, 9%);
+    --white: white;
+    --light-red: hsl(0, 100%, 63%);
+    --button: hsl(322, 100%, 66%);
+    --btn-hover: hsl(321, 100%, 78%);
+}
+
+body {
+    font-size: 18px;
+    font-family: Open Sans;
+}
+
+header {
+    padding: 3rem;
+}
+
+.navbar {
+    display: flex;
+    margin-bottom: 3.5rem;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 11rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.right-nav button {
+    width: 9rem;
+    color: var(--btn-hover);
+    border: 1px solid var(--btn-hover);
+    border-radius: 1rem;
+    box-shadow: 0.7px 0.7px 5px 1px var(--btn-hover);
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size: 0.7rem;
+    background-color: var(--white);
+}
+
+.right-nav button:hover {
+    cursor: pointer;
+}
+
+.first-content {
+    text-align: center;
+    margin: 6rem auto 4rem auto;
+    width: 60%;
+}
+
+.first-content h1 {
+    font-size: 2.5rem;
+    font-family: Poppins;
+}
+
+.first-content p {
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 1.5rem auto;
+}
+
+.first-content button {
+    width: 30%;
+    border: none;
+    padding: 1rem;
+    font-size: 0.7rem;
+    color: var(--white);
+    border-radius: 1.5rem;
+    box-shadow: 0.7px 0.7px 4px 1px rgb(210, 210, 210);
+    background-color: var(--button);
+}
+
+.first-content button:hover {
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+
+.first-imag {
+    width: 60%;
+    margin: auto;
+}
+
+.first-imag img {
+    width: 100%;
+}
+
+.follow-commit {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+.follow-commit img {
+    width: 2rem;
+}
+
+.follow-commit h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.follow-commit p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.second-block ,.third-block ,.forth-block {
+    padding: 8rem 4rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    background-image: url();
+    justify-content: space-between;
+}
+
+.second-block {
+    background-image: url("images/bg-section-top-desktop-1.svg") , url("images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-position: top , bottom;
+    background-size: 120% 50% , 150% 50%;
+}
+
+.forth-block {
+    background-image: url("images/bg-section-top-desktop-2.svg") , url("images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-position: top , bottom;
+    background-size: 120% 50% , 150% 50%;
+}
+
+.img-dirn{
+    flex-direction: row-reverse;
+}
+
+main .content {
+    width: 35%;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: var(--paragraf);
+}
+
+main .image {
+    width: 25%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.fifth-block {
+    width: 45%;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.fifth-block button {
+    width: 40%;
+    border: none;
+    display: block;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+    font-size: 0.7rem;
+    color: var(--white);
+    border-radius: 1.5rem;
+    background-color: var(--button);
+}
+
+.fifth-block button:hover {
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+
+.foot-bg {
+    width: 100%;
+    height: 10rem;
+    background-image: url("images/bg-footer-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    padding: 3rem;
+    color: var(--white);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--footer);
+}
+
+#sec-huddle-logo {
+    width: 14rem;
+    margin-bottom: 2rem;
+    filter: brightness(0) invert(1);
+}
+
+.phone img , .gmail img {
+    display: block;
+    margin-right: 1rem;
+}
+
+.phone ,.gmail {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.huddle > p{
+    width: 45%;
+    line-height: 1.3rem;
+}
+
+.social-img {
+    display: flex;
+    margin-top: 1.8rem;
+}
+.social-img i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.social-img i:hover {
+    color: rgb(53, 53, 240);
+    cursor: pointer;
+}
+
+.sletter > p{
+    width: 40%;
+    margin-top: 1rem;
+    line-height: 1.3rem;
+}
+
+.sletter input {
+    padding: 0.7rem;
+    width: 45%;
+    border: none;
+    margin: 1.5rem 1rem 0 0;
+    border-radius: 0.3rem;
+}
+
+.sletter button {
+    width: 25%;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: var(--button);
+    padding: 0.7rem;
+    color: var(--white);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:600px) {
+    
+        .navbar button {
+            width: 5rem;
+            font-size: 0.4rem;
+        }
+
+        .first-content {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .first-content h1 {
+            font-size: 1.7rem;
+        }
+
+        .first-content p {
+            font-size: 1rem;
+        }
+
+        .first-content button {
+            width: 80%;
+        }
+
+        .first-imag {
+            width: 100%;
+        }
+
+        .second-block ,.third-block ,.forth-block{
+            flex-direction: column;
+        }
+
+        main .image {
+            width: 100%;
+        }
+
+        main h2 {
+            font-size: 1.2rem;
+        }
+
+        main .content {
+            text-align: center;
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        .fifth-block {
+            left: 3%;
+            width: 95%;
+        }
+
+        .fifth-block h2{
+            font-size: 1.2rem;
+        }
+
+        .fifth-block p {
+            font-size: 0.5rem;
+        }
+
+        .fifth-block button {
+            width: 90%;
+        }
+
+        .comunication {
+            display: block;
+        }
+
+        .contact {
+            margin-bottom: 2rem;
+        }
+
+        .social-img {
+            margin-top: 2rem;
+            justify-content: center;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 2rem;
+        }
+}
