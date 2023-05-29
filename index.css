@@ -108,7 +108,7 @@ header {
     width: 2rem;
 }
 
-.follow-commit h1 {
+.follow-commit h2 {
     font-size: 3rem;
     text-align: center;
 }
@@ -242,6 +242,10 @@ footer {
 .social-img i:hover {
     color: rgb(53, 53, 240);
     cursor: pointer;
+}
+
+.sletter h3 {
+    font-size: 1.4rem;
 }
 
 .sletter > p{
